@@ -8,7 +8,7 @@ const LINKS = [
   { href: '#contacto', label: 'Contacto' },
 ];
 
-export default function Navbar({ onOpenContact, onOpenCV }) {
+export default function Navbar({ onOpenContact }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState('');
 

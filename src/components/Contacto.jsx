@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import anime from 'animejs';
 
-export default function Contacto({ onOpenCV }) {
+export default function Contacto() {
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -89,9 +89,6 @@ export default function Contacto({ onOpenCV }) {
           <div className="flex gap-8 mono uppercase tracking-wider text-xs">
             <a href="https://github.com/Erick-arch-bit" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               GitHub ↗
-            </a>
-            <a href="javascript:void(0)" onClick={onOpenCV} className="hover:text-white transition-colors">
-              Ver CV ↗
             </a>
           </div>
         </div>
